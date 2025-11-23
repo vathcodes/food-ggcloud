@@ -12,7 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-const url = "http://44.221.80.130:4000"
+const url = "http://34.16.45.231:4000"
 
   return (
     <div>

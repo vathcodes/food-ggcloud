@@ -16,7 +16,7 @@ pipeline {
             }
         }
 
-        stage('Build & Deploy Docker Compose') {
+        stage('Build & Deploy Docker Compose yaml') {
             steps {
                 withCredentials([
                     string(credentialsId: 'MONGODB_URI', variable: 'MONGODB_URI'),

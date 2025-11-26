@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'http://34.16.45.231:4000'
+export const url = 'http://34.9.54.54:4000'

@@ -9,7 +9,7 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
-    const url = "http://34.16.45.231:4000"
+    const url = "http://34.9.54.54:4000"
     const [token,setToken] = useState("");
     const [food_list,setFoodList] = useState([]);
 
